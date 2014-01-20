@@ -1,0 +1,37 @@
+# ddconv.yml
+# YAMLで記述されたDDconvの設定ファイルです。
+# 「#」以降のテキストは無視されます。
+# -------------------------------------
+
+# バージョン
+ddconvVersion: 1.0 # 必須。この行は編集しないでください。
+
+# 出版物の識別子
+identifiers:
+  - content: 0B379A91-B19F-4351-B916-F711282077BF # 具体的な識別子を指定します。
+    identifier-type: uuid # 「uuid」または「isbn」を指定します。
+
+# タイトル
+titles:
+  - content: オープンデータとLinked Open Data # タイトルを指定します。（必須）
+
+# 作成者等
+creators:
+  # 作成者1 --------
+  - content: 大向 一輝 # 著者などの名前を指定します。
+
+# 出版物が使用する言語（必須）
+language: ja #日本語=ja、英語=enなど
+
+# 出版年月日
+#date: 20131115 # YYYYMMDDの形式で指定します。
+
+# ページ送り方向
+pageDirection: ltr # 左から右=ltr、右から左=rtl
+
+# EPUB出力オプション
+# true: 有効、false: 無効
+options:
+  titlepage: true # 扉ページを自動生成する true|false
+  tocInSpine: true # 目次ページを自動生成する true|false
+  kepub: false # kobo Touch向け拡張子「.kepub.epub」を利用する true|false
