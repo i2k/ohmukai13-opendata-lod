@@ -5,5 +5,5 @@
 
 EPUBファイルのダウンロードは[こちら](https://github.com/i2k/ohmukai13-opendata-lod/releases/download/v1.0/ohmukai13-opendata-lod.epub)から。
 
-EPUBファイルは[電書ちゃんのでんでんコンバータ](http://conv.denshochan.com)で作成しました。resoucesフォルダ以下のすべてのファイルをアップロードし、変換ボタンをクリックすると生成されます。
+EPUBファイルは[電書ちゃんのでんでんコンバータ](http://conv.denshochan.com)で作成しました。resourcesフォルダ以下のすべてのファイルをアップロードし、変換ボタンをクリックすると生成されます。
 
